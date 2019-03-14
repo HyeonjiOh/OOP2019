@@ -5,7 +5,7 @@ public class P4 {
 		int arr1[] = {9, 20, 28, 18, 11};
 		int arr2[] = {30, 1, 21, 17, 28};
 
-	
+		/*
 		String x = "abcedf";
 		char y = x.charAt(1);
 		
@@ -15,5 +15,13 @@ public class P4 {
 		
 		int len = z.length();
 		System.out.println(len);
+		*/
+		int arr3[] = {0, 0, 0, 0, 0};
+		int i;
+		for(i = 0; i<5 ; i++)
+		{
+			arr3[i] = arr1[i] | arr2[i];
+		}
+
 	}
 }
