@@ -17,6 +17,5 @@ public class P1 {
 			else
 				System.out.println("음수입니다.");
 		}
-		
 	}
 }
